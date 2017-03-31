@@ -620,8 +620,10 @@ public class ChatAttachAlert extends BottomSheet implements NotificationCenter.N
                 return false;
             }
         };
+
         lineView.setBackgroundColor(Theme.getColor(Theme.key_dialogGrayLine));
         attachView.addView(lineView, new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 1, Gravity.TOP | Gravity.LEFT));
+
         CharSequence[] items = new CharSequence[]{
                 LocaleController.getString("ChatCamera", R.string.ChatCamera),
                 LocaleController.getString("ChatGallery", R.string.ChatGallery),
