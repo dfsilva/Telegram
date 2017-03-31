@@ -48,19 +48,19 @@ android {
     }
 
     signingConfigs {
-//        debug {
-//            storeFile file("config/release.keystore")
-//            storePassword RELEASE_STORE_PASSWORD
-//            keyAlias RELEASE_KEY_ALIAS
-//            keyPassword RELEASE_KEY_PASSWORD
-//            v2SigningEnabled false
-//        }
+        release {
+            storeFile file("config/release.keystore")
+            storePassword "123456"
+            keyAlias "telegram"
+            keyPassword "123456"
+            v2SigningEnabled false
+        }
 
         release {
             storeFile file("config/release.keystore")
-            storePassword RELEASE_STORE_PASSWORD
-            keyAlias RELEASE_KEY_ALIAS
-            keyPassword RELEASE_KEY_PASSWORD
+            storePassword "123456"
+            keyAlias "telegram"
+            keyPassword "123456"
             v2SigningEnabled false
         }
     }
