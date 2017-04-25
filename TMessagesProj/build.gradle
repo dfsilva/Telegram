@@ -50,7 +50,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("config/release.keystore")
+            storeFile file("config/release.jks")
             storePassword "123456"
             keyAlias "telegram"
             keyPassword "123456"
@@ -58,7 +58,7 @@ android {
         }
 
         release {
-            storeFile file("config/release.keystore")
+            storeFile file("config/release.jks")
             storePassword "123456"
             keyAlias "telegram"
             keyPassword "123456"
