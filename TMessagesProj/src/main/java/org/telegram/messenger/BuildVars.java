@@ -11,12 +11,14 @@ package org.telegram.messenger;
 public class BuildVars {
     public static boolean DEBUG_VERSION = false;
     public static boolean DEBUG_PRIVATE_VERSION = false;
-    public static int BUILD_VERSION = 957;
-    public static String BUILD_VERSION_STRING = "3.18";
+
+    public static int BUILD_VERSION = 1043;
+    public static String BUILD_VERSION_STRING = "4.2";
     public static int APP_ID = 91568; //obtain your own APP_ID at https://core.telegram.org/api/obtaining_api_id
     public static String APP_HASH = "ed57b2a22808d6f45df6a76ac099a92f"; //obtain your own APP_HASH at https://core.telegram.org/api/obtaining_api_id
     public static String HOCKEY_APP_HASH = "ed57b2a22808d6f45df6a76ac099a92f";
     public static String HOCKEY_APP_HASH_DEBUG = "ed57b2a22808d6f45df6a76ac099a92f";
+
     public static String BING_SEARCH_KEY = ""; //obtain your own KEY at https://www.bing.com/dev/en-us/dev-center
     public static String FOURSQUARE_API_KEY = ""; //obtain your own KEY at https://developer.foursquare.com/
     public static String FOURSQUARE_API_ID = ""; //obtain your own API_ID at https://developer.foursquare.com/
