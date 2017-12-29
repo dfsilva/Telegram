@@ -1,5 +1,5 @@
 /*
- * This is the source code of Telegram for Android v. 3.x.x.
+ * This is the source code of Telegram for Android v. 4.x.x.
  * It is licensed under GNU GPL v. 2 or later.
  * You should have received a copy of the license in this archive (see LICENSE).
  *
@@ -12,8 +12,8 @@ public class BuildVars {
     public static boolean DEBUG_VERSION = false;
     public static boolean DEBUG_PRIVATE_VERSION = false;
 
-    public static int BUILD_VERSION = 1043;
-    public static String BUILD_VERSION_STRING = "4.2";
+    public static int BUILD_VERSION = 1155;
+    public static String BUILD_VERSION_STRING = "4.6";
     public static int APP_ID = 91568; //obtain your own APP_ID at https://core.telegram.org/api/obtaining_api_id
     public static String APP_HASH = "ed57b2a22808d6f45df6a76ac099a92f"; //obtain your own APP_HASH at https://core.telegram.org/api/obtaining_api_id
     public static String HOCKEY_APP_HASH = "ed57b2a22808d6f45df6a76ac099a92f";
@@ -22,5 +22,6 @@ public class BuildVars {
     public static String BING_SEARCH_KEY = ""; //obtain your own KEY at https://www.bing.com/dev/en-us/dev-center
     public static String FOURSQUARE_API_KEY = ""; //obtain your own KEY at https://developer.foursquare.com/
     public static String FOURSQUARE_API_ID = ""; //obtain your own API_ID at https://developer.foursquare.com/
+    public static String GOOGLE_API_KEY = "";
     public static String FOURSQUARE_API_VERSION = "20150326";
 }
