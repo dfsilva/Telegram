@@ -32,6 +32,7 @@ import android.text.Spanned;
 import android.text.TextPaint;
 import android.text.style.DynamicDrawableSpan;
 import android.text.style.ImageSpan;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -80,6 +81,7 @@ public class Emoji {
             int count2 = (int) Math.ceil(EmojiData.data[j].length / (float) splitCount);
             int position;
             for (int i = 0; i < EmojiData.data[j].length; i++) {
+                Log.d(Emoji.class.getName(), "For static j: "+j+", i: "+i);
                 int page = i / count2;
                 position = i - page * count2;
                 int row = position % cols[j][page];
@@ -94,6 +96,7 @@ public class Emoji {
 
     private static void loadEmoji(final int page, final int page2) {
         try {
+            Log.d(Emoji.class.getName(), "Loading emoji page: "+page+", page2: "+page2);
             float scale;
             int imageResize = 1;
             if (AndroidUtilities.density <= 1.0f) {
